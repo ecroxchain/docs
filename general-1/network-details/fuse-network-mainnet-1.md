@@ -1,4 +1,4 @@
-# Ecrox Mainnet
+# Ecrox Testnet
 
 ### General Information
 
@@ -7,12 +7,12 @@
 | 20,000,000 | 3 seconds   | 0 GWei    |          | ECROX        | 81041      |
 
 * Network name: **Ecrox**
-* ChanId: **988207**
+* ChanId: 278356
 * Gas price: **0 gwei**
 * RPC
-  * official RPC: [https://mainnet-rpc.ecroxscan.com/](https://mainnet-rpc.ecroxscan.com/)​
-  * Archive node RPC: [https://mainnet-rpc.ecroxscan.com/](https://mainnet-rpc.ecroxscan.com/)​
-* Explorer: [https://ecroxscan.com/](http://ecroxscan.com/)​
+  * official RPC:[ https://testnet-rpc.ecroxscan.com](https://testnet-rpc.ecroxscan.com)​
+  * Archive node RPC: [https://testnet-rpc.ecroxscan.com](https://testnet-rpc.ecroxscan.com)​
+* Explorer: [https://testnet-explorer.ecroxscan.com/](https://testnet-explorer.ecroxscan.com/)​
 
 Please refer to [node-example](https://github.com/ecroxchain/CoinNetwork/tree/master/node-example) if you wish to run your own node.
 

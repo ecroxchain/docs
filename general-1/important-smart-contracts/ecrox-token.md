@@ -1,2 +1,0 @@
-# Ecrox Token
-

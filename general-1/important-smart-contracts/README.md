@@ -1,2 +1,0 @@
-# Important smart contracts
-

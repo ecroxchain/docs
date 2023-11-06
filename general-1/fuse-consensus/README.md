@@ -2,15 +2,15 @@
 
 Consensus is a fault-tolerant mechanism that is used in blockchain systems to achieve the necessary agreement on the single state of the network. Ecrox network is using a [Delegated Proof of Stake](https://en.bitcoinwiki.org/wiki/DPoS) (DPoS) consensus model. DPoS is a variation of [Proof of Stake](https://en.bitcoinwiki.org/wiki/Proof-of-stake) consensus. In PoS there are a set of validators that are responsible for keeping the network updated and validating the network's state. They do this in turns, every validator has their turn in line. On their turn the validator updates the network's state, and the rest of the validators check that the update is valid.
 
-![](<../../.gitbook/assets/image (3).png>)
+<figure><img src="../../.gitbook/assets/spaces_4lx06BJBDdtE98Mhq7B8_uploads_git-blob-cd5bcb498a760ab32bce9d7d90c6c68a529a7029_image (3).png" alt=""><figcaption></figcaption></figure>
 
 Consensus contract is used to manage the list of the network validators and delegators
 
 BlockReward contract is calculates the reward amount that validators and delegators will receive on each block validation. The reward size is proportional to validator's stake.
 
-With Voting contract validators are vote on various changes on these 3 base level contracts. All those contracts are proxied with implementation that handles the logic. The implementations can be changed only by the Voting process.&#x20;
+With Voting contract validators are vote on various changes on these 3 base level contracts. All those contracts are proxied with implementation that handles the logic. The implementations can be changed only by the Voting process.
 
-The bridge is used to transfer the Ecrox native token between Ecrox and Ethereum networks.&#x20;
+The bridge is used to transfer the Ecrox native token between Ecrox and Ethereum networks.
 
 ## [Consensus - 0x2954AE5845B7Bb96e2147458926031a02D33C6E7](https://ecroxscan.com/address/0x2954AE5845B7Bb96e2147458926031a02D33C6E7)
 
@@ -23,7 +23,7 @@ Stake amount for a validator is the sum of staked and delegated amount to it's a
 This contract is based on `non-reporting ValidatorSet` [described in Parity Wiki](https://wiki.parity.io/Validator-Set.html#non-reporting-contract).
 
 {% hint style="info" %}
-minimum stake amount = 10,000 Ecrox token
+minimum stake amount = 100,000 Ecrox Coin
 
 cycle duration blocks = 57600 (approximately 2 days)
 {% endhint %}
@@ -45,9 +45,9 @@ Only network validators can open new ballots, everyone can vote on them, but onl
 Ballots are opened/closed on cycle end.
 
 {% hint style="info" %}
-max number of open ballots = 100
+max number of open ballots = 5000
 
-max number of open ballots per validator = 100 / number of validators
+max number of open ballots per validator = 5000 / number of validators
 
 minimum ballot duration (cycles) = 2
 
@@ -57,4 +57,3 @@ maximum ballot duration (cycles) = 14
 ## [Proxy Storage](https://ecroxscan.com/address/0x9b66D237552d25Bc7942eF67832663dc264c926B)
 
 This contract is responsible for holding network contracts implementation addresses and upgrading them if necessary (via voting).
-

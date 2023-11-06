@@ -1,16 +1,27 @@
 # Community
 
-**Twitter**: [https://twitter.com/](https://twitter.com/)&#x20;
+**Facebook** : [https://www.facebook.com/ecroxcoin](https://www.facebook.com/ecroxcoin)
 
-**Discord**: [https://discord.com/](https://discord.com/)&#x20;
+**Instagram**: [https://www.instagram.com/ecroxchain/](https://www.instagram.com/ecroxchain/)
 
-**Ecrox Forum**: [https://forum.ecroxscan.com/](https://forum.ecroxscan.com/)
+**Twitter** : [https://twitter.com/ecroxchain](https://twitter.com/ecroxchain)
+
+**Medium** : [https://medium.com/@ecroxchain](https://medium.com/@ecroxchain)
+
+**Reddit** : [https://www.reddit.com/user/Ecroxchain](https://www.reddit.com/user/Ecroxchain)
+
+**Pinterest** : [https://in.pinterest.com/ecroxchain/\_created/](https://in.pinterest.com/ecroxchain/\_created/)
+
+**LinkedIn** : [https://www.linkedin.com/company/ecrox-chain/](https://www.linkedin.com/company/ecrox-chain/)
+
+**Youtube** : [https://www.youtube.com/channel/UCD1K1HqtwbgWpBKwjJFQYGg](https://www.youtube.com/channel/UCD1K1HqtwbgWpBKwjJFQYGg)
+
+**GitHub** : [https://github.com/ecroxchain](https://github.com/ecroxchain)
+
+
 
 ### Public Telegram groups
 
-**Main chat**: [https://t.me/](https://t.me/)
+**Telegram Group** -[https://t.me/ecroxchainofficial ](https://t.me/ecroxchainofficial)
 
-**Italian Ecrox Telegram community:** [https://t.me/](https://t.me/)
-
-**Indonesian Ecrox Telegram community:** [https://t.me/](https://t.me/)
-
+**Telegram Channel** - [https://t.me/ecroxchainannouncement](https://t.me/ecroxchainannouncement)

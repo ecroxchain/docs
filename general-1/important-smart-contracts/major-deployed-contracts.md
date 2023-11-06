@@ -1,2 +1,0 @@
-# Major Deployed Contracts
-
