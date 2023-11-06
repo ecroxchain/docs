@@ -7,4 +7,4 @@ The following information will help you discover and connect to the Ecrox blockc
 * Gas price: **0 gwei**
 * RPC
   * official RPC: [https://mainnet-rpc.ecroxscan.com/](https://mainnet-rpc.ecroxscan.com/)
-* Explorer: [http://ecroxscan.com/](http://ecroxscan.com/)
+* Explorer: [https://ecroxscan.com/](http://ecroxscan.com/)
