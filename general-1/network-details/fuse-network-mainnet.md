@@ -4,10 +4,10 @@
 
 | Block size | Block speed | Gas price | Patchset | Native token | Network ID |
 | ---------- | ----------- | --------- | -------- | ------------ | ---------- |
-| 20,000,000 | 5 seconds   | 0 GWei    |          | ECROX         |      81041 |
+| 20,000,000 | 5 seconds   | 0 GWei    |          | ECROX        | 81041      |
 
 * Network name: **Ecrox**
-* ChanId: **81041**
+* ChanId: **988207**
 * Gas price: **0 gwei**
 * RPC
   * official RPC: [https://mainnet-rpc.ecroxscan.com/](https://mainnet-rpc.ecroxscan.com/)​

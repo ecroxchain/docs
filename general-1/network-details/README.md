@@ -3,7 +3,7 @@
 ### Mainnet
 
 * Network name: **ECROX**
-* ChanId: **81041**
+* ChanId: **988207**
 * Gas price: **0 gwei**
 * RPC
   * official RPC: [https://mainnet-rpc.ecroxscan.com/](https://mainnet-rpc.ecroxscan.com/)​
