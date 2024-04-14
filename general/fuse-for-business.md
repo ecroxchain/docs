@@ -1,9 +1,7 @@
 # Ecrox for Business
 
-While the Ecrox platform strives to provide crypto users with a solid range of options they expect to see on a major EVM-compatible blockchain, including wallets, decentralized finance (DeFi), NFTs, and so on, our main focus remains developing Ecrox into alternative rails for the global payments industry. We want a future where hundreds of millions of people worldwide use crypto for their everyday needs.
+While Ecrox aims to offer a comprehensive suite of features expected on a major EVM-compatible blockchain, such as wallets, decentralized finance (DeFi), and NFTs, our primary focus is on transforming Ecrox into a foundational pillar for the global payments industry. We envision a future where millions of individuals worldwide seamlessly integrate crypto into their daily transactions.
 
-However, it is our conviction that most consumers will not use the blockchain for payments directly, as crypto-savvy people do now, at least in the foreseeable future. Most people are not prepared to run their bank accounts directly on-chain and be exposed to the friction and risks involved.
+However, we understand that the majority of consumers are not yet ready to directly manage their finances on-chain, with the associated friction and risks. Therefore, our approach is centered around developing applications that bridge this gap, providing users with a familiar payment experience akin to popular platforms like Venmo and Revolut, but powered by the Ecrox blockchain.
 
-Instead, applications will need to be built that will make the experience of making payments and other financial transactions as smooth and close to what users have become familiar with while using modern payment apps like Venmo and Revolut. These will run on top of the blockchain but they will not force users to handle private keys or pay transaction fees.
-
-This section provides an introduction to the Ecrox tools that businesses and other organizations can already put to use to develop just such applications.&#x20;
+These applications will operate on top of the blockchain, shielding users from the complexities of handling private keys and paying transaction fees. This section serves as an introduction to the Ecrox tools available for businesses and organizations to build such user-friendly applications.

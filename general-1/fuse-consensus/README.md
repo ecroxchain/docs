@@ -1,24 +1,36 @@
 # Ecrox Consensus
 
-Consensus is a fault-tolerant mechanism that is used in blockchain systems to achieve the necessary agreement on the single state of the network. Ecrox network is using a [Delegated Proof of Stake](https://en.bitcoinwiki.org/wiki/DPoS) (DPoS) consensus model. DPoS is a variation of [Proof of Stake](https://en.bitcoinwiki.org/wiki/Proof-of-stake) consensus. In PoS there are a set of validators that are responsible for keeping the network updated and validating the network's state. They do this in turns, every validator has their turn in line. On their turn the validator updates the network's state, and the rest of the validators check that the update is valid.
+Consensus plays a crucial role in blockchain systems by ensuring agreement on the network's single state. In the Ecrox network, we utilize a Delegated Proof of Stake (DPoS) consensus model, a variant of the Proof of Stake (PoS) mechanism. Here's a brief overview:
+
+1. **Proof of Stake (PoS)**: In PoS, a group of validators is responsible for maintaining and validating the network's state. Validators take turns updating the state, with each validator having its designated slot in the rotation. When it's their turn, a validator updates the network's state, and other validators verify the update for validity.
+2. **Delegated Proof of Stake (DPoS)**: DPoS introduces a delegation system where token holders can delegate their tokens to specific validators. These elected validators then perform the network validation tasks. DPoS aims to enhance scalability and efficiency by reducing the number of validators actively participating in the consensus process.
+
+In the Ecrox network, DPoS ensures fault tolerance and efficient agreement on the network's state, contributing to the overall reliability and performance of the blockchain ecosystem.
 
 <figure><img src="../../.gitbook/assets/spaces_4lx06BJBDdtE98Mhq7B8_uploads_git-blob-cd5bcb498a760ab32bce9d7d90c6c68a529a7029_image (3).png" alt=""><figcaption></figcaption></figure>
 
-Consensus contract is used to manage the list of the network validators and delegators
+The Consensus contract plays a crucial role in managing the network's validators and delegators, maintaining an updated list of participants actively involved in securing the network.
 
-BlockReward contract is calculates the reward amount that validators and delegators will receive on each block validation. The reward size is proportional to validator's stake.
+The BlockReward contract is responsible for calculating the rewards distributed to validators and delegators during block validation. These rewards are proportionate to the validator's stake, incentivizing active participation and contribution to network security.
 
-With Voting contract validators are vote on various changes on these 3 base level contracts. All those contracts are proxied with implementation that handles the logic. The implementations can be changed only by the Voting process.
+The Voting contract facilitates decision-making within the network, allowing validators to vote on proposed changes related to the Consensus, BlockReward, and other fundamental contracts. These contracts are proxied with implementations that handle their logic, ensuring transparency and security. Any changes to these implementations can only be made through the formal Voting process, ensuring democratic governance and consensus.
 
-The bridge is used to transfer the Ecrox native token between Ecrox and Ethereum networks.
+Additionally, the bridge serves as a vital link between the Ecrox and Ethereum networks, enabling seamless transfer of the native Ecrox token between the two platforms. This interoperability enhances accessibility and liquidity, fostering a connected and vibrant blockchain ecosystem.
 
 ## [Consensus - 0x2954AE5845B7Bb96e2147458926031a02D33C6E7](https://ecroxscan.com/address/0x2954AE5845B7Bb96e2147458926031a02D33C6E7)
 
-This contract is responsible for handling the network DPos consensus. The contract stores the current validator set and chooses a new validator set at the end of each cycle. The logic for updating the validator set is to select a random snapshot from the snapshots taken during the cycle.
+This contract plays a crucial role in managing the network's Delegated Proof of Stake (DPoS) consensus mechanism. Its primary functions include storing the current set of validators and selecting a new validator set at the end of each cycle. The selection process for updating the validator set involves choosing a random snapshot from the snapshots captured during the cycle.
 
-The snapshots are taken of pending validators, who are those which staked more than the minimum stake needed to become a network validator. Therefore the contract is also responsible for staking, delegating and withdrawing those funds.
+Furthermore, the contract is responsible for handling various actions related to staking, delegating, and withdrawing funds for validators. Here's a breakdown of its responsibilities:
 
-Stake amount for a validator is the sum of staked and delegated amount to it's address.
+1. **Validator Set Management**: The contract stores information about the current validators who participate in securing the network through staking and validating transactions.
+2. **Cycle Updates**: At the end of each cycle, the contract updates the validator set by selecting a random snapshot from the snapshots taken during the cycle. This ensures a fair and decentralized process for validator selection.
+3. **Snapshot Creation**: The contract captures snapshots of pending validators during the cycle. Pending validators are those who have staked an amount exceeding the minimum stake required to become a network validator.
+4. **Staking**: Validators and delegators can stake their funds through this contract. The stake amount for a validator includes both the amount staked directly and the amount delegated to its address.
+5. **Delegating**: Delegators can delegate their funds to validators of their choice. This allows for broader participation in the consensus mechanism and rewards distribution.
+6. **Withdrawing Funds**: Validators and delegators can withdraw their staked or delegated funds when needed. This functionality ensures liquidity and flexibility for participants in the network.
+
+Overall, this contract serves as a pivotal component in maintaining the integrity, decentralization, and efficiency of the network's DPoS consensus mechanism while facilitating stake management and delegation processes.
 
 This contract is based on `non-reporting ValidatorSet` [described in Parity Wiki](https://wiki.parity.io/Validator-Set.html#non-reporting-contract).
 

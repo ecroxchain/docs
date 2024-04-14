@@ -2,14 +2,12 @@
 
 ## Network Overview and Key Metrics
 
-Ecrox Chain is the decentralized EVM-compatible public blockchain that powers the Ecrox platform and ecosystem. It is fully compatible with Ethereum meaning that any smart contract that can be deployed on the latter can also run on top of Ecrox.
+Ecrox Chain serves as the decentralized, Ethereum Virtual Machine (EVM)-compatible public blockchain that underpins the entire Ecrox platform and ecosystem. This compatibility ensures that any smart contract deployable on Ethereum can seamlessly function on Ecrox as well.
 
-The Ecrox blockchain uses a variant of delegated Proof of Stake (dPoS) for achieving [consensus](https://docs.ecroxscan.com/general/fuse-network-blockchain/fuse-consensus). The consensus is secured by a significant number of independent validators, only one of which is run by the Ecrox core team.
+Utilizing a variant of Delegated Proof of Stake (dPoS) for consensus, Ecrox Chain relies on a network of independent validators, with only one managed by the Ecrox core team. These validators play a crucial role in governance, particularly in adopting network protocol changes via Ecrox Improvement Proposals (FIPs).
 
-Validators are also responsible for the most important type of governance on Ecrox, namely, adopting the network protocol changes via [Ecrox Improvement Proposals](https://docs.ecroxscan.com/general/fips) (FIPs).
+The platform's native token, ECROX, is integral to its operations. Newly minted ECROX Coins accompany each added block and serve as the gas fee, akin to ETH on Ethereum, for executing transactions.
 
-The native token of the network is called ECROX. New ECROX Coins are issued with every added block and are also use to pay for gas, just like ETH on Ethereum.
+Designed for efficiency, Ecrox Chain boasts swift block confirmation times and economical transactions. With an average block interval of approximately 3 seconds, transaction costs are currently below $0.01, ensuring accessibility and affordability for users.
 
-The Ecrox blockchain is designed to ensure fast block confirmation times and a low cost of transactions. The average block interval on Ecrox is around 3 seconds, and it currently costs much less than $0.01 to get a transaction confirmed.
-
-In its present capacity, the Ecrox blockchain is capable of processing around 10 Lakh TPS per second. The faster processing of native token transfers is due to the fact that they do not involve computations run on the network's virtual machine.
+In its current state, Ecrox Chain can handle around 20 lakh transactions per second (TPS). This remarkable throughput is achieved primarily because native token transfers do not require computational processes on the network's virtual machine, contributing to the platform's speed and scalability.

@@ -1,17 +1,11 @@
 # ECROX Tokenomics
 
-Currently, the ECROX token supply is set to follow a **mildly inflationary model**.
+The ECROX token supply adheres to a mildly inflationary model, with new tokens issued as block rewards every 3 seconds on Ecrox. Validators who create blocks and their delegators receive these rewards, ensuring the security of the network's consensus mechanism.
 
-With each new block created every 3 seconds on Ecrox, the validator who creates it, and the delegators who staked with them, receive the block rewards in newly issued ECROX Coins. This is designed to secure the network's [consensus mechanism](https://docs.ecroxscan.com/general/fuse-network-blockchain/fuse-consensus).
+Currently, the reward amount per block is calibrated such that the ECROX total supply increases by approximately 5% annually. This inflationary model was chosen initially to provide a predictable revenue flow for validators and delegators. Relying solely on transaction fees could lead to unpredictable returns due to fluctuations in network activity.
 
-The reward amount per block is currently set such that every year, the ECROX total supply increases by approximately 5%.
+Moreover, substantial block rewards help maintain low transaction fees, fostering Ecrox adoption.
 
-The main reason for choosing an inflationary model at the early development stage was to ensure a certain predictability of the flow of revenue for network validators and delegators. If they had to exclusively rely on transaction fees as the reward for staking ECROX and validating, it would be harder for them to predict their future returns, as transaction activity on the network can fluctuate a lot. The relative predictability of validator revenue is an important assumption behind the blockchain consensus theory on which the Ecrox consensus mechanism is based.
+A proposal to reduce ECROX inflation is under community discussion. If approved by validators, it will lower the annual inflation rate to 2% starting from the network's third year. Subsequent years will see a fixed amount of tokens issued. This proposal aims to balance inflation with sustainable network growth.
 
-Having substantial block rewards also makes it possible to keep transaction fees on the network low, facilitating adoption of Ecrox.
-
-### Potential inflation reduction
-
-A Ecrox Improvement Proposal aimed at reducing the ECROX inflation is currently under discussion by the community. If adopted by the validators, it will result in an annual inflation rate of 2% for third year of the network's existence and a fixed amounts of tokens issued in the subsequent years.
-
-You can find the text of the proposal and the discussion here.
+You can access the proposal text and ongoing discussion on support@ecroxcoin.io

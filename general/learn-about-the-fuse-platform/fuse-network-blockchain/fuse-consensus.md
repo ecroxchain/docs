@@ -1,27 +1,13 @@
 # Ecrox Consensus
 
-Consensus refers to the agreement process between nodes in a network. The nodes must agree on which transactions to include in the next block on the chain before these transactions are committed.
+Consensus in blockchain networks involves nodes agreeing on which transactions should be included in the next block before they are permanently added to the chain. This process encompasses both the consensus mechanism for adding transactions to blocks and measures for Sybil protection and incentivizing validators.
 
-There are 2 aspects to the process - the actual consensus mechanism to add transactions to blocks, and Sybil protection and validator incentives.
+**Sybil Protection and Incentives via Delegated Proof of Stake (dPoS)**: Ecrox implements delegated Proof of Stake (dPoS) to safeguard against Sybil attacks and align validator incentives. To participate in network consensus, a node operator must stake a minimum amount of ECROX Coins (currently set at 100,000 ECROX). Validator selection is permissionless, requiring only fulfillment of technical criteria. Staking ECROX prevents an entity from creating multiple validators without significant cost, ensuring Sybil protection. The network currently accommodates up to 5000 validators.
 
-### Sybil protection and incentives via delegated proof of stake
+Validators earn rewards in newly minted ECROX Coins and transaction fees for publishing agreed-upon blocks. Their block-publishing frequency corresponds to their stake share, which can be increased through attracting more ECROX Coins from delegators. Violating consensus rules results in stake freezing, including contributions from delegators, incentivizing validators to comply.
 
-Ecrox uses delegated Proof of Stake (dPoS) to provide Sybil protection and align the validator incentives.
+**AuRa Consensus Model**: Ecrox utilizes Parity's AuRa (Authority Round) consensus model, also used by the xDAI blockchain, to append blocks. Validators rotate in signing blocks, which are broadcast to all validators for validation. A majority consensus validates a block, adding it to the chain every 5 seconds, regardless of transaction frequency.
 
-In order to participate in securing the network consensus, a node operator must stake a minimum required amount of ECROX Coins (currently set at MIN 100,000 ECROX). Becoming a validator on Ecrox is permissionless, meaning that a node operator just needs to satisfy certain technical requirements. The need to stake ECROX ensures that an entity cannot create multiple seemingly distinct validators without incurring a significant cost. Hence, the Sybil's protection. Currently, the maximum number of validators on Ecrox is 5000.
-
-The validator who publishes a block agreed upon during a given consensus round is rewarded by the network protocol in newly minted ECROX Coins. They also receive the fees users paid for the transactions included into the block.
-
-Over time, validators can expect to publish a share of blocks equal to their share of the overall stake. Since ECROX uses dPoS, a validator can increase their share by attracting ECROX Coins from delegators. The mechanics of delegation on ECROX are discussed in more detail on the [following page](https://docs.ecroxscan.com/general/fuse-network-blockchain/validators-and-delegation).
-
-Validators who violate the consensus rules (by, for instance, not revealing random numbers) can expect their stake (including the delegators' contribution) to be frozen. This provides a strong incentive for validators to behave in the desired manner.
-
-### The AuRa Consensus Model
-
-Ecrox currently uses Parity's AuRa (Authority Round) [consensus model](https://openethereum.github.io/Aura) to append blocks to Ecrox. This consensus mechanism is also notably used by the xDAI blockchain.
-
-In this model, the validators take turns signing blocks. A signed block is broadcast to all validators, and if the majority agree it is valid, it is added to the chain. A new block is added every 5 seconds, regardless of whether any transactions occurred during that time.
-
-Although, in theory, achieving transaction finality in this model may take some time, for practical purposes, a transaction on Ecrox can be considered finalized after a single block confirmation.
+While achieving transaction finality theoretically may take time, practically, a transaction on Ecrox is considered finalized after a single block confirmation, ensuring efficient and reliable transaction processing.
 
 \\

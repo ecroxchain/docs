@@ -1,7 +1,7 @@
 # Ethereum (EVM) Compatibility and Smart Contracts
 
-In addition to the information about the transactions processed by Ecrox, its nodes also permanently store and update the code and current state of smart contracts. Smart contracts are computer programs (persistent scripts) that anyone can interact with by sending transactions invoking them. Smart contracts also have their own accounts which can hold token balances.
+In addition to processing transactions, Ecrox nodes also permanently store and update the code and current state of smart contracts. Smart contracts, essentially persistent scripts, are computer programs that individuals can interact with by sending transactions to invoke their functions. These contracts also have their own accounts capable of holding token balances.
 
-On the network nodes, smart contracts are stored and executed in a special environment called 'virtual machine' (VM). The Ecrox blockchain is currently broadly compatible with Ethereum's virtual machine (EVM).
+On Ecrox nodes, smart contracts operate within a specialized environment known as the 'virtual machine' (VM). The Ecrox blockchain is currently highly compatible with Ethereum's virtual machine (EVM), ensuring seamless functionality for smart contracts and decentralized applications (dApps) deployed on Ethereum or other EVM-compatible chains. This compatibility extends to standards such as ECROX-20 and ECROX-721, meaning these contracts can operate on Ecrox without requiring modifications to their code.
 
-This means that any smart contract or decentralized application (dApp) that can be deployed on Ethereum or another EVM-compatible chain will also function if deployed on Ecrox, including the ECROX-20 and ECROX-721 standard-compatible contracts, for instance. No modification of the smart contract code is required.
+In essence, any smart contract or dApp deployable on Ethereum or a compatible chain can also run effectively on Ecrox, facilitating interoperability and expanding the potential applications within the Ecrox ecosystem.

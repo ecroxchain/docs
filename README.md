@@ -6,17 +6,17 @@ description: Welcome to the documentation portal for Ecrox
 
 ![](.gitbook/assets/docs\_1500x500.png)
 
-Welcome to the go-to portal for in-depth information about the Ecrox (ECROX) platform and ecosystem and how to interact with them!
+Welcome to the comprehensive resource center for everything you need to know about the Ecrox (ECROX) platform and its ecosystem, along with guidance on how to engage with them effectively!
 
-The Ecrox documentation is separated into three major parts:
+Our documentation is structured into three primary segments:
 
-**1.** **Ecrox Docs**. This part is available in the sections below is for anyone who wants to learn more about Ecrox without going into detail that only developers would usually need to know.
+1. **Ecrox Docs**: This section is designed to provide a comprehensive overview of Ecrox for anyone interested in gaining insights into its functionality and potential applications, without delving into intricate technical details typically required by developers.
+2. **Developer Docs**: Developers interested in leveraging Ecrox's mobile-centric infrastructure or setting up validator nodes can find detailed technical documentation and resources in this dedicated portal.
+3. **Tutorials**: For consumers seeking hands-on guidance and tutorials on how to navigate and utilize Ecrox's features effectively, we offer a range of user-focused tutorials to enhance your experience.
 
-**2.** **Developer docs.** Developers wishing to build on top of Ecrox and its mobile-centric infrastructure or run validator nodes should consult this [portal](https://developers.ecroxscan.com).
-
-**3. Tutorials.** This part contains various consumer-focused tutorials. It can be accessed here. \*\*\*\*
+Feel free to explore each section to gain a deeper understanding of Ecrox and how it can empower your digital initiatives.&#x20;
 
 {% hint style="info" %}
 Join our [Telegram group](https://t.me/ecroxchainofficial)\
-Or say hello at: support@ecroxscan.com
+Or say hello at: support@ecroxcoin.io
 {% endhint %}

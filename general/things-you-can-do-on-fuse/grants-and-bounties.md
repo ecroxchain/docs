@@ -1,19 +1,27 @@
 # Grants and Bounties
 
-Since the inception of Ecrox, the core team has facilitated the growth of the Ecrox blockchain and also developed a set of tools for developers to be able to easily and quickly build extremely user-friendly decentralized applications (dApps). Our focus has primarily been on payment-centric communities like GoodDollar, Kolektivo, Comunitaria and PeeplEat.
+Since the inception of Ecrox, our core team has been dedicated to fostering the growth of the Ecrox blockchain and creating a suite of tools to empower developers in building highly user-friendly decentralized applications (dApps). Our primary focus has been on nurturing payment-centric communities such as GoodDollar, Kolektivo, Comunitaria, and PeeplEat.
 
-Now, we would like to see our tools used by even more high-quality projects, therefore, we stand ready to fund applicants for the Ecrox Grants programs.
+Now, we are eager to expand the reach of our tools and support even more high-quality projects. To achieve this goal, we are excited to announce the Ecrox Grants program, designed to provide funding to deserving applicants who contribute value to the Ecrox ecosystem and its users.
 
-​The Ecrox Future Dev Pool will be used to support projects that bring value to the Ecrox ecosystem and users. We are especially interested in new high-potential payment centric communities, DAO initiatives, applications for new crypto users, NFTs, DeFi apps, projects that support current projects, and new categories we haven't even thought of yet!
+The Ecrox Future Dev Pool will be utilized to back projects that align with our vision. We are particularly interested in supporting initiatives focused on:
 
-Although the grant process is not set in stone, the way it currently functions is that we announce bounties on an ongoing basis based on the project category. Please consult the next page to see the bounties that are currently available.
+1. New high-potential payment-centric communities.
+2. DAO (Decentralized Autonomous Organization) initiatives.
+3. Applications tailored for new crypto users.
+4. NFT (Non-Fungible Token) projects.
+5. DeFi (Decentralized Finance) applications.
+6. Projects that complement or enhance existing Ecrox projects.
+7. Innovative ideas and categories that bring novel perspectives to the ecosystem.
 
-Although the terms of grants may vary depending on the use case, candidates will generally be selected based on the following criteria:
+While the grant process is flexible and subject to updates, we typically announce bounties periodically based on specific project categories. Please refer to the next page to view the currently available bounties.
 
-* Strength of the team following analysis of GitHub, LinkedIn, etc.
-* A written description of the project. We are not necessarily looking for long detailed text but our ability to understand clearly and see the value proposition will play an important role.
-* Tech and product quality based on any work done so far and/or product roadmap vision.\\
+Candidates for Ecrox Grants will be evaluated based on the following criteria:
 
-**We invite submissions from** **click here** **to apply**
+* Strength of the team, assessed through platforms like GitHub and LinkedIn.
+* Clear and concise project description that articulates the value proposition effectively.
+* Technical and product quality, considering any existing work or product roadmap vision.
+
+We welcome submissions from passionate individuals and teams who are ready to make a positive impact in the blockchain space. Click here to apply and be a part of the Ecrox Grants program.
 
 ***

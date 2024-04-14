@@ -1,41 +1,18 @@
 # Ecrox Coin (ECROX)
 
-The ECROX Coins is the native currency of the Ecrox blockchain and platform, just like ETH on Ethereum.
+ECROX Coins serve as the native currency of the Ecrox blockchain and platform, akin to ETH on Ethereum. Here's a breakdown of their utility:
 
-## ECROX utility:
+1. **Transaction Fees**: ECROX is required for paying network fees to validate transactions on the Ecrox blockchain.
+2. **Validation**: Token holders can stake ECROX to become validators, contributing to network security and consensus. The minimum staking requirement is currently set at 100K ECROX.
+3. **Voting**: Validators utilize their staked ECROX for voting on protocol changes and governance decisions within the network.
+4. **Staking for Delegators**: ECROX holders can delegate their tokens to validators of their choice. Delegators receive a portion of block rewards proportional to their stake, minus a minimum 5% fee paid to validators.
+5. **Payments**: ECROX transfers are fast and cost-effective, as they don't require interactions with smart contracts, making them ideal for regular payments.
 
-* **Transaction fees** Being the native currency on the Ecrox blockchain, ECROX is required to pay fees to the network in order to approve transactions.
-* **Validation** Token holders can stake Ecrox to become a validator. The minimal staking requirement is 100K. The network is growing, currently there are 60 validators. ([https://status.ecroxscan.com/](https://status.ecroxscan.com/))
-* **Voting** Validators vote on protocol changes with their staked ECROX. Which means validators with higher amounts of Ecrox staked can have a bigger vote on network upgrades and governance changes (until phase 2 where delegation is activated)
-* **Staking (for delegators)** Any ECROX holder can choose one or more validators to delegate any amount of ECROX they wish. They receive a share of the Ecrox block rewards proportionate to the share of their stake in the total stake, minus the minimum 5% fee paid to the validator(s).
-* **Payments** As ECROX is the native currency on Ecrox, sending it does not require interactions with smart contracts. Thus, ECROX transfers are potentially faster and less costly in terms of transaction fees.
+It's important to note that mere possession of ECROX does not grant rights to participate in platform governance or revenue streams.
 
-**IMPORTANT**: Merely possessing any amount of ECROX Coins does not endow holders with any rights to participate in the governance of the Ecrox platform or any revenue streams related to its real-world performance.
+**Acquiring ECROX**:
 
-## Obtaining ECROX
-
-### Where to Buy
-
-ECROX is available for purchase on a number of centralized (CEX) and decentralized DEX exchanges.
-
-**Centralized exchanges**: Gate.io, Huobi Global, MEXC Global, AscendEX, Bimart, Bittrex Global
-
-**DEXes:** Uniswap V2 and V3 (Ethereum), PancakeSwap (Binance Smart Chain), Quickswap (Polygon), Voltage DEX (Ecrox), Sushiswap (Ecrox), 1inch (Ethereum), KyberSwap (Ethereum), Loopring (Ethereum).
-
-The best information about the ECROX trading volumes and prices on various exchanges can be found on the Coingecko "Markets" page for the token.
-
-A convenient current way of purchasing ECROX straight from one's bank account is through using the Ecrox Cash wallet to deposit Ecrox Dollars, and then swapping those to ECROX via the in-app integration with Voltage DEX.
-
-### Where to Farm
-
-At the moment, the ECROX token is sometimes used by the project team to power liquidity rewards (yield farming) programs to boost liquidity on DEXes and the participation in the Ecrox Lending Network.
-
-The ongoing liquidity rewards programs on DEXes can be discovered here.
-
-### Other ways of obtaining ECROX
-
-From time to time, the Ecrox team uses ECROX to pay rewards to the members of the community for various forms of participation and community engagement. The best way to stay up-to-date about these opportunities is to follow Ecrox's [social channels](https://docs.ecroxscan.com/general/community).
-
-The ECROX token is also used to power Ecrox grants and bounties. Please consult the [Grants and Bounties](https://docs.ecroxscan.com/general/things-you-can-do-on-fuse/grants-and-bounties) section for more details.
-
-\_\_
+* **Buying**: ECROX is available on various centralized (CEX) and decentralized (DEX) exchanges like Gate.io, Uniswap, PancakeSwap, Quickswap, and Voltage DEX. The Coingecko "Markets" page provides comprehensive information on trading volumes and prices.
+* **Farming**: The ECROX token is used in liquidity rewards programs (yield farming) to enhance liquidity on DEXes and participation in the Ecrox Lending Network. Details about ongoing programs can be found on the Ecrox website.
+* **Community Rewards**: The Ecrox team occasionally rewards community members with ECROX for active participation and engagement. Stay updated through Ecrox's social channels for these opportunities.
+* **Grants and Bounties**: ECROX powers Ecrox grants and bounty programs. Refer to the Grants and Bounties section on Ecrox's platform for more information.

@@ -1,9 +1,7 @@
 # Delegation through Staking with Validators
 
-As discussed on the previous page, Ecrox validators can boost their share of the overall consensus stake by attracting funds from other users who do not run validator nodes themselves.
+As elaborated earlier, Ecrox validators can expand their share of the consensus stake by attracting funds from users who opt not to run validator nodes, known as "delegators." Delegators have the freedom to select any validator(s) and stake any amount of ECROX with them through the Ecrox Staking platform for participation.
 
-Those users are referred to as 'delegators.' A delegator is free to choose any validator (or validators) and stake any amount of ECROX with them to participate. The most convenient way to delegate ECROX to a validator is via the Ecrox Staking [platform](https://staking.ecroxscan.com).
+When a delegator stakes ECROX with a validator, they receive a portion of Ecrox block rewards proportional to their stake, minus the fee paid to the validator. The minimum fee currently stands at 5%, a deliberate measure to prevent excessive consolidation among validators by discouraging very low delegation fees.
 
-A delegator receives the share of Ecrox block rewards proportionate to their stake minus the fee paid to their chosen validator. The minimum fee is currently set at 5%. This value was chosen to mitigate the risk of validator consolidation through offering very low delegation fees.
-
-Currently, delegators are allowed to unstake their ECROX at any time but plans are in motion to introduce a minimum staking period.
+Presently, delegators retain the option to unstake their ECROX at any time. However, there are plans underway to introduce a minimum staking period to enhance network stability and incentivize longer-term participation.

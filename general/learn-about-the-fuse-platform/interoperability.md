@@ -7,24 +7,23 @@ description: >-
 
 # Interoperability
 
-The Ecrox team strongly believes in interoperability among public blockchains. No single platform is likely to become fully dominant in the future.
+The Ecrox team is committed to promoting interoperability among public blockchains, recognizing that no single platform is likely to achieve complete dominance in the future. Therefore, solutions that facilitate seamless transfers between Ecrox and other blockchains are essential for the sustained growth of the Ecrox platform and ecosystem.
 
-Hence, interoperability solutions enabling transfers between Ecrox and other blockchains are vital for the continued growth of the Ecrox platform and ecosystem.
+Significant progress has been made by the Ecrox team in securing partnerships with leading operators. Presently, the Ecrox blockchain is linked to other blockchains through the following multichain bridges and value transfer protocols:
 
-The Ecrox team has been making considerable progress in getting Ecrox added by the leading operators. Currently the Ecrox blockchain is connected to other blockchains via the following multichain bridges and value transfer protocols:
+1. **Ecrox Cross Bridge**: This bridge serves as a vital connection point, enabling smooth transfers between Ecrox and other blockchain networks.
+2. **Ecrox Finance Value Transfer Protocol**: This protocol plays a crucial role in facilitating value transfers across different blockchains, enhancing interoperability and accessibility for Ecrox users.
 
-1\) The Ecrox Cross bridge.
-
-2\) The Ecrox Finance value transfer protool.
-
+These interoperability solutions are fundamental to expanding Ecrox's reach and utility, fostering collaboration with diverse blockchain ecosystems and contributing to the overall growth and resilience of the platform.
 
 
-### The Ecrox Bridge
 
-The Ecrox Cross bridge was originally created by the Ecrox team and has been transferred to the community-governed Ecrox Bridge..
+### &#x20;Ecrox Token Bridge
 
-It connects Ecrox to **Ethereum and Binance Smart Chain (BSC)**. Both bridges are custodial. The bridge to Ethereum is permissionless, while new tokens need to be added to the BSC bridge.
+The Ecrox Cross bridge was initially developed by the Ecrox team and has since been transitioned to the community-governed Ecrox Bridge. This bridge serves as a vital link connecting Ecrox to both Ethereum and Binance Smart Chain (BSC). Notably, both bridges operate on a custodial basis.
 
-On both bridges, sending tokens from the relevant blockchain to Ecrox is not subject to any fees or limits. Token withdrawals from Ecrox incur a **0.05% fee** on the amount bridged. Users transferring funds also need to pay the fees on the destination chain in order to claim their tokens from the bridge contract at the final stage of the transfer.
+The Ethereum bridge is permissionless, allowing seamless integration with the Ethereum blockchain. However, for the BSC bridge, new tokens must undergo an addition process.
 
-The bridge can be accessed via the Ecrox Bridge App. More information on its functioning can be found here. The Ecrox bridging tutorials are available here.
+When transferring tokens from Ethereum or Binance Smart Chain to Ecrox via these bridges, users are not subjected to any fees or limits. However, withdrawals from Ecrox using the bridge incur a 0.05% fee based on the bridged amount. Additionally, users must cover fees on the destination chain to successfully claim their tokens from the bridge contract during the final transfer stage.
+
+Access to the bridge is facilitated through the Ecrox Bridge App, providing a user-friendly interface for managing cross-chain transactions. For more detailed information on the bridge's functionality, please refer to this link. Furthermore, comprehensive tutorials on utilizing the Ecrox bridging system can be found here. [https://bridge.ecroxscan.com](https://bridge.ecroxscan.com/)

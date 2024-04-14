@@ -21,5 +21,3 @@ Please refer to [node-example](https://github.com/ecroxchain/CoinNetwork/tree/ma
 **Ecrox Explorer** is the official blockchain explorer for Ecrox. With this full-featured, open-source explorer you can view transactions, accounts & balances, access data via the API, and read and verify smart contracts.
 
 {% embed url="https://ecroxscan.com" %}
-
-###

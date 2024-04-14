@@ -4,28 +4,32 @@ description: Projects and platforms building or built upon or partnering with Ec
 
 # Ecrox Ecosystem
 
-The Ecrox ecosystem has seen massive growth since the launch of the platform in 2022. It includes the following key elements:
+The Ecrox ecosystem has experienced significant expansion since its launch in 2022, comprising various integral components:
 
-1\) **Basic infrastructure**. This category includes:
+1. **Basic Infrastructure**:
+   * Ecrox-operated tools like Ecrox RPC, Ecrox Explorer, and Ecrox Staking.
+   * Mobile-centric B2B infrastructure empowering corporate clients to develop token-powered applications and onboard users through mobile wallets.
+   * Other infrastructure providers like Pocket Network (decentralized full node layer), The Graph (smart contract indexing), Chainlink, and DIA (oracles).
+   * Fiat on- and off-ramps, including Ramp Network, XanPool, and Transak.
+2. **Interoperability Tools**:
+   * Multichain bridge and inter-chain transfer protocols, such as Multichain (previously Anyswap) and Ecrox Bridge.
+3. **Payment-Focused Applications**:
+   * Applications leveraging Ecrox's B2B infrastructure, such as Ecrox Pay, facilitating seamless payments.
+4. **Exchanges**:
+   * Centralized exchanges (CEXs) like Gate.io, Huobi Global, and MEXC, where ECROX Coins and Ecrox-powered assets are traded.
+   * Notable decentralized exchanges (DEXs) on other chains, including Uniswap (V2 and V3), PancakeSwap, and QuickSwap.
+5. **DeFi Tools**:
+   * Community-governed Ecrox Finance leading the DeFi space on Ecrox.
+   * Other major DeFi platforms like Ecrox Lending, offering lending and borrowing services.
+6. **NFTs, Metaverses, and Gaming**:
+   * Prominent NFT projects such as the Ecrox NFT marketplaces.
+   * Upcoming metaverse projects like Ecrox Metaverse, enhancing user engagement and experiences.
+7. **Wallets and dApp Browsers**:
+   * Ecrox Cash, MetaMask, Brave Wallet, BitKeep, and Math Wallet, among others, providing secure storage and access to dApps.
+8. **Other Tools and Aggregators**:
+   * Platforms like DappRadar, Dapp.com, and Staking Rewards offering tools, analytics, and bounties, fostering ecosystem growth and user engagement.
 
-* Ecrox-operated tools like the [Ecrox RPC](https://mainnet-rpc.ecroxscan.com), [Ecrox Explorer](https://ecroxscan.com), [Ecrox Staking](https://staking.ecroxscan.com), etc.
-* Ecrox's mobile-centric B2B infrastructure enabling corporate clients to create token-powered applications and on-board clients via mobile wallets and apps.
-* Other basic infrastructure providers like Pocket Network (decentralized full node layer), The Graph (smart contract indexing), [Chainlink](https://chain.link) and [DIA](https://diadata.org) (oracles)
-* Fiat on- and off-ramps, including, among others, [Ramp Network](https://ramp.network), [XanPool](https://xanpool.com) and [Transak](https://transak.com).
-
-2\) **Interoperability tools**. This includes multichain bridge and inter-chain transfer protocols, such as [Multichain](https://multichain.org) (previously Anyswap),[ Ecrox Bridge.](https://bridge.ecroxscan.com)
-
-3\) **Payment-focused applications built on top of Ecrox's B2B infrastructure**. These include, among others Ecrox Pay.
-
-4\) **Centralized and decentralized exchanges** (on other chains) where Ecrox's native ECROX Coins and other Ecrox-powered assets are traded. The most prominent CEXs are [Gate.io](https://gate.io), [Huobi Global](https://huobi.com) and [MEXC](https://mexc.com). Notable DEXs on other chains include [Uniswap](https://uniswap) (V2 and V3), PancakeSwap and QuickSwap.
-
-5\) **DeFi tools**. The DeFi space on Ecrox is led by the community-governed Ecrox Finance . Other major DeFi platforms include Ecrox Lending.
-
-6\) **NFTs, metaverses and gaming**. The most prominent NFT projects on Ecrox include the Ecrox NFT marketplaces. The first metaverse to soon be deployed on Ecrox is Ecrox Metaverse.
-
-7\) **Wallets and dApp browsers**. These include, among others, Ecrox Cash, [MetaMask](https://metamask.io), [Brave Wallet](https://brave.com/wallet), [BitKeep](https://bitkeep.com), [Math Wallet](https://mathwallet.org).
-
-8\) **Other tools, aggregators, trackers, bounties, etc**. Among these, the most noteworthy are [DappRadar](https://dappradar.com), [Dapp.com](https://dapp.com), Staking Rewards.
+These elements collectively contribute to the vibrant and diverse nature of the Ecrox ecosystem, offering users a comprehensive range of tools and services for seamless blockchain interaction, financial activities, and digital asset management.
 
 ### You can explore the Ecrox ecosystem in full by visiting the dedicated page on the Ecrox official website.
 
